@@ -1,0 +1,92 @@
+.body {
+    margin: 0 auto;
+}
+
+.nav-bar {
+    height: 60px;
+    width: 100%;
+    background-color: #0107EC; /*Blue*/
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    Height: 72px;
+    width: 90px;
+}
+
+.nav-list{
+    float: right;
+}
+
+.list-item{
+    list-style-image: none;
+    background-color: #C54FFD;
+    height: 35px;
+    width: 70px;
+    float: left;
+    border: 1px #D87DFF;
+    border-radius: 20%;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.list-item:hover {
+    background-color: #66D9EE;
+}
+
+.list-item a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: #0107EC;
+    clear: both;
+    position:relative;
+}
+
+.contact-info {
+    margin-top:70px;
+}
+
+.row {
+    width: 100%;
+}
+
+.map {
+    padding: 20px;
+    border: 3px solid blue;
+}
+
+.form {
+    padding: 20px;
+    border:3px solid blue;
+    
+}
+
+.copyright, .social, .container2 {
+    width: 33%;
+    height:70px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.fab {
+    font-size:32px;
+}
+
+.fa-instagram {
+    color:#66D9EE;
+}
+
+.fa-soundcloud {
+    color:orange;
+}
