@@ -21,6 +21,7 @@
 
 .list-item{
     list-style-image: none;
+    list-style-type: none;
     background-color: #C54FFD;
     height: 35px;
     width: 70px;
